@@ -65,6 +65,12 @@ class Game:
         return {"user_choise": self.user_choise, "computer_choice": self.computer_choice, "score": self.score}
 
 
+class ScoreBoard:
+    """
+    Класс для вывода таблицы результатов
+    """
+
+
 if __name__ == '__main__':
     game = Game()
     game.start()
